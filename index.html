@@ -584,7 +584,7 @@
             font-weight: 400;
         }
 
-        /* IMAGES SECTION - with image fit options */
+        /* IMAGES SECTION */
         .images-simple-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -617,30 +617,6 @@
             justify-content: center;
         }
 
-        /* OPTION 1: Contain - shows entire image with possible letterboxing */
-        .image-container.contain img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            background: linear-gradient(145deg, #e6f0ff, #b3c7e6);
-        }
-
-        /* OPTION 2: Cover - fills container but may crop */
-        .image-container.cover img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        /* OPTION 3: Scale down - shows full image scaled to fit */
-        .image-container.scale-down img {
-            width: 100%;
-            height: 100%;
-            object-fit: scale-down;
-            background: linear-gradient(145deg, #e6f0ff, #b3c7e6);
-        }
-
-        /* Using contain by default to show full image without cropping */
         .image-container img {
             width: 100%;
             height: 100%;
@@ -1250,27 +1226,30 @@
     </div>
 </div>
 
-<!-- ABOUT SECTION -->
+<!-- ABOUT SECTION - Updated with new text -->
 <div class="page-section" id="section-about">
     <div class="section-inner">
         <div class="section-title-bar">
             <div class="sbar-text">
                 <h2>About Informatics Consultancy Firm</h2>
-                <p>Premier data science consultancy based in Sierra Leone</p>
+                <p>Premier health informatics company based in Sierra Leone</p>
             </div>
         </div>
         <div class="about-grid">
             <div class="about-text">
                 <h3>Who We Are</h3>
-                <p>Informatics Consultancy Firm (ICF-SL) is Sierra Leone's premier data science and analytics consultancy, dedicated to transforming complex data into actionable business intelligence for governments, NGOs, and development partners.</p>
-                <p>Our multidisciplinary team of statisticians, data scientists, epidemiologists, and software engineers delivers cutting-edge solutions that drive evidence-based decision-making across West Africa.</p>
-                <p>Since our founding, we have built an outstanding reputation for rigorous methodology, innovative tools, and measurable impact — particularly in public health, national malaria control, and health systems strengthening.</p>
+                <p><strong>INFORMATICS CONSULTANCY FIRM – SIERRA LEONE (ICF-SL)</strong>, established in 2023, is a health informatics company duly registered and operating in the Republic of Sierra Leone, specializing in health information systems, data analytics, malaria surveillance, and digital health solutions, with its principal office located in Freetown, Sierra Leone.</p>
+                
+                <p>ICF-SL possesses specialized expertise in health informatics, DHIS2 implementation, malaria epidemiology, data science, and the development of digital health solutions tailored to the needs of National Malaria Programmes and other health sector stakeholders.</p>
+                
+                <p>Since our establishment in 2023, ICF-SL has successfully delivered critical technical assistance to the National Malaria Control Programme (NMCP), demonstrating proven capability and establishing a foundation of trust and collaboration. Our multidisciplinary team of statisticians, data scientists, epidemiologists, and software engineers delivers cutting-edge solutions that drive evidence-based decision-making across Sierra Leone and West Africa.</p>
+                
                 <ul class="about-list">
                     <li>✓ Advanced machine learning and statistical modeling</li>
-                    <li>✓ Custom software and web-based analytics tools</li>
+                    <li>✓ DHIS2 implementation and health information systems strengthening</li>
+                    <li>✓ Malaria surveillance and epidemiological analytics</li>
+                    <li>✓ Custom software and digital health solutions</li>
                     <li>✓ Geospatial analysis and GIS dashboards</li>
-                    <li>✓ Epidemiological research and public health analytics</li>
-                    <li>✓ DHIS2 integration and health information systems</li>
                     <li>✓ Capacity building and training programs (R & Python)</li>
                 </ul>
             </div>
@@ -1288,6 +1267,12 @@
                         </div>
                         <div class="info-row">
                             <div class="info-row-text">
+                                <h5>Established</h5>
+                                <p>2023</p>
+                            </div>
+                        </div>
+                        <div class="info-row">
+                            <div class="info-row-text">
                                 <h5>Location</h5>
                                 <p>Freetown, Sierra Leone, West Africa</p>
                             </div>
@@ -1301,7 +1286,7 @@
                         <div class="info-row">
                             <div class="info-row-text">
                                 <h5>Specialisation</h5>
-                                <p>Data Science, Health Analytics, Geospatial</p>
+                                <p>Health Informatics, Data Science, Malaria Surveillance</p>
                             </div>
                         </div>
                         <div class="info-row">
@@ -1319,7 +1304,7 @@
                         <div class="info-row">
                             <div class="info-row-text">
                                 <h5>Core Technologies</h5>
-                                <p>R, Python, DHIS2, GIS, TensorFlow, SQL</p>
+                                <p>DHIS2, R, Python, GIS, TensorFlow, SQL</p>
                             </div>
                         </div>
                     </div>
@@ -1335,16 +1320,42 @@
         <div class="section-title-bar">
             <div class="sbar-text">
                 <h2>Services We Provide</h2>
-                <p>Comprehensive data science and analytics solutions</p>
+                <p>Comprehensive health informatics and data science solutions</p>
             </div>
         </div>
         <div class="services-grid">
             <div class="service-card">
                 <div class="sc-head">
+                    <h3>Health Information Systems & DHIS2</h3>
+                </div>
+                <div class="sc-body">
+                    <p>Expert DHIS2 implementation, customization, and support for health programs, including NMCP and other disease control initiatives.</p>
+                    <div class="sc-tags">
+                        <span class="tag">DHIS2</span>
+                        <span class="tag">HMIS</span>
+                        <span class="tag">Integration</span>
+                    </div>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="sc-head">
+                    <h3>Malaria Surveillance & Epidemiology</h3>
+                </div>
+                <div class="sc-body">
+                    <p>Specialized analytics for malaria control programs, including test positivity rates, incidence mapping, and intervention targeting.</p>
+                    <div class="sc-tags">
+                        <span class="tag">Malaria</span>
+                        <span class="tag">Epi Analysis</span>
+                        <span class="tag">NMCP</span>
+                    </div>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="sc-head">
                     <h3>Predictive Analytics & Machine Learning</h3>
                 </div>
                 <div class="sc-body">
-                    <p>Advanced ML models for forecasting trends, risk stratification, and strategic planning across healthcare, agriculture, and development sectors.</p>
+                    <p>Advanced ML models for forecasting disease trends, risk stratification, and strategic planning across health and development sectors.</p>
                     <div class="sc-tags">
                         <span class="tag">Random Forest</span>
                         <span class="tag">Neural Networks</span>
@@ -1354,27 +1365,14 @@
             </div>
             <div class="service-card">
                 <div class="sc-head">
-                    <h3>Business Intelligence & Dashboards</h3>
+                    <h3>Digital Health Solutions</h3>
                 </div>
                 <div class="sc-body">
-                    <p>Custom interactive dashboards, automated reporting systems and data visualization tools that translate raw data into executive-level insights.</p>
+                    <p>Custom digital tools, mobile applications, and web-based platforms designed for health workers, data managers, and program leaders.</p>
                     <div class="sc-tags">
-                        <span class="tag">Power BI</span>
-                        <span class="tag">Streamlit</span>
-                        <span class="tag">Tableau</span>
-                    </div>
-                </div>
-            </div>
-            <div class="service-card">
-                <div class="sc-head">
-                    <h3>Healthcare & Epidemiological Analytics</h3>
-                </div>
-                <div class="sc-body">
-                    <p>Specialized medical data analysis, disease surveillance, epidemiological modeling and public health research for national health programs.</p>
-                    <div class="sc-tags">
-                        <span class="tag">DHIS2</span>
-                        <span class="tag">Epi Analysis</span>
-                        <span class="tag">SNT</span>
+                        <span class="tag">Web Apps</span>
+                        <span class="tag">Mobile</span>
+                        <span class="tag">Dashboard</span>
                     </div>
                 </div>
             </div>
@@ -1383,7 +1381,7 @@
                     <h3>Geospatial Analysis & GIS</h3>
                 </div>
                 <div class="sc-body">
-                    <p>Spatial data processing, map production, health facility catchment modeling, and geographic targeting for intervention planning.</p>
+                    <p>Spatial data processing, health facility mapping, catchment area modeling, and geographic targeting for intervention planning.</p>
                     <div class="sc-tags">
                         <span class="tag">ArcGIS</span>
                         <span class="tag">QGIS</span>
@@ -1393,27 +1391,14 @@
             </div>
             <div class="service-card">
                 <div class="sc-head">
-                    <h3>Statistical Consulting & Research</h3>
+                    <h3>Training & Capacity Building</h3>
                 </div>
                 <div class="sc-body">
-                    <p>Expert statistical analysis, survey design, sampling methodology, and academic research consulting for universities and research institutions.</p>
+                    <p>Custom training programs in DHIS2, data analytics, R, Python, and health informatics for ministries, NGOs, and health partners.</p>
                     <div class="sc-tags">
-                        <span class="tag">STATA</span>
-                        <span class="tag">R Studio</span>
-                        <span class="tag">SPSS</span>
-                    </div>
-                </div>
-            </div>
-            <div class="service-card">
-                <div class="sc-head">
-                    <h3>Software Development & Training</h3>
-                </div>
-                <div class="sc-body">
-                    <p>Custom data tools, web applications and capacity-building programs in R, Python, and data management for organizations across West Africa.</p>
-                    <div class="sc-tags">
-                        <span class="tag">Python</span>
                         <span class="tag">R</span>
-                        <span class="tag">JavaScript</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">DHIS2</span>
                     </div>
                 </div>
             </div>
@@ -1427,10 +1412,10 @@
         <div class="section-title-bar">
             <div class="sbar-text">
                 <h2>Project Gallery</h2>
-                <p>Explore our portfolio of past projects and achievements</p>
+                <p>Explore our portfolio of health informatics and analytics projects</p>
             </div>
         </div>
-        <p class="gallery-intro">Browse through our collection of successful data science and analytics projects. Click on any project to view it live in an interactive modal.</p>
+        <p class="gallery-intro">Browse through our collection of successful health informatics and data science projects delivered since 2023. Click on any project to view it live.</p>
         
         <div class="gallery-filter">
             <button class="gfilter-btn active" onclick="filterGallery('all', this)">All Projects</button>
@@ -1446,65 +1431,64 @@
                     <h3>Hypertension Management System</h3>
                 </div>
                 <div class="sc-body">
-                    <p>Intelligent monitoring and clinical prediction platform for hypertension patients.</p>
+                    <p>Intelligent monitoring and clinical prediction platform for hypertension patients developed for Sierra Leone health facilities.</p>
                     <div class="sc-tags"><span class="tag">Health Analytics</span><span class="tag">ML</span></div>
                 </div>
             </div>
             <!-- Project 2 -->
             <div class="gallery-item" data-cat="health ml" onclick="openModal('https://mohamedsillahkanu.github.io/Heart-Disease/', 'Cardiovascular Disease Prediction')">
                 <div class="sc-head"><h3>Cardiovascular Disease Prediction</h3></div>
-                <div class="sc-body"><p>ML-powered risk assessment and early detection system for CVD.</p><div class="sc-tags"><span class="tag">Machine Learning</span><span class="tag">Health</span></div></div>
+                <div class="sc-body"><p>ML-powered risk assessment and early detection system for CVD, supporting NMCP's integrated disease surveillance.</p><div class="sc-tags"><span class="tag">Machine Learning</span><span class="tag">Health</span></div></div>
             </div>
             <!-- Project 3 -->
             <div class="gallery-item" data-cat="health ml" onclick="openModal('https://mohamedsillahkanu.github.io/Diabetes-dashboard/', 'Diabetes Analytics Platform')">
                 <div class="sc-head"><h3>Diabetes Analytics Platform</h3></div>
-                <div class="sc-body"><p>Comprehensive diabetes management and real-time monitoring dashboard.</p><div class="sc-tags"><span class="tag">Health</span><span class="tag">Dashboard</span></div></div>
+                <div class="sc-body"><p>Comprehensive diabetes management and real-time monitoring dashboard for chronic disease surveillance.</p><div class="sc-tags"><span class="tag">Health</span><span class="tag">Dashboard</span></div></div>
             </div>
             <!-- Project 4 -->
             <div class="gallery-item" data-cat="ml" onclick="openModal('https://mohamedsillahkanu.github.io/colon-cancer/', 'Colon & Lung Cancer CNN')">
                 <div class="sc-head"><h3>Colon & Lung Cancer CNN</h3></div>
-                <div class="sc-body"><p>Computer vision model for automated medical image classification.</p><div class="sc-tags"><span class="tag">Deep Learning</span><span class="tag">CNN</span></div></div>
+                <div class="sc-body"><p>Computer vision model for automated medical image classification, supporting pathology services.</p><div class="sc-tags"><span class="tag">Deep Learning</span><span class="tag">CNN</span></div></div>
             </div>
             <!-- Project 5 -->
             <div class="gallery-item" data-cat="tool" onclick="openModal('https://mohamedsillahkanu.github.io/costing-tool/', 'SNT Costing Tool')">
                 <div class="sc-head"><h3>SNT Costing Calculator</h3></div>
-                <div class="sc-body"><p>National malaria intervention costing and planning tool.</p><div class="sc-tags"><span class="tag">Software Tool</span><span class="tag">Malaria</span></div></div>
+                <div class="sc-body"><p>National malaria intervention costing and planning tool developed for NMCP Sierra Leone.</p><div class="sc-tags"><span class="tag">Software Tool</span><span class="tag">Malaria</span></div></div>
             </div>
             <!-- Project 6 -->
             <div class="gallery-item" data-cat="tool" onclick="openModal('https://mohamedsillahkanu.github.io/sl-nmcp-data-analysis-training-plan/', 'Data Analytics Training')">
                 <div class="sc-head"><h3>Data Analytics Training in R & Python</h3></div>
-                <div class="sc-body"><p>Comprehensive NMCP training plan for data analysis.</p><div class="sc-tags"><span class="tag">Education</span><span class="tag">R/Python</span></div></div>
+                <div class="sc-body"><p>Comprehensive NMCP training plan for data analysis, building local capacity in health informatics.</p><div class="sc-tags"><span class="tag">Education</span><span class="tag">R/Python</span></div></div>
             </div>
             <!-- Project 7 -->
             <div class="gallery-item" data-cat="health" onclick="openModal('https://mohamedsillahkanu.github.io/tpr/', 'Test Positivity Rate')">
                 <div class="sc-head"><h3>Test Positivity Rate Analysis</h3></div>
-                <div class="sc-body"><p>Malaria test positivity rate computation and geospatial visualization.</p><div class="sc-tags"><span class="tag">Epidemiology</span><span class="tag">Malaria</span></div></div>
+                <div class="sc-body"><p>Malaria test positivity rate computation and geospatial visualization for NMCP surveillance.</p><div class="sc-tags"><span class="tag">Epidemiology</span><span class="tag">Malaria</span></div></div>
             </div>
             <!-- Project 8 -->
             <div class="gallery-item" data-cat="health" onclick="openModal('https://mohamedsillahkanu.github.io/crude-incidence/', 'Crude Incidence Tool')">
                 <div class="sc-head"><h3>Crude Incidence Calculator</h3></div>
-                <div class="sc-body"><p>Epidemiological incidence rate computation and trend analysis.</p><div class="sc-tags"><span class="tag">Epi</span><span class="tag">Calculator</span></div></div>
+                <div class="sc-body"><p>Epidemiological incidence rate computation and trend analysis for disease surveillance.</p><div class="sc-tags"><span class="tag">Epi</span><span class="tag">Calculator</span></div></div>
             </div>
             <!-- Project 9 -->
             <div class="gallery-item" data-cat="health" onclick="openModal('https://mohamedsillahkanu.github.io/heatmap/', 'Reporting Matrix Heatmap')">
                 <div class="sc-head"><h3>Reporting Matrix & Heatmap</h3></div>
-                <div class="sc-body"><p>DHIS2 reporting completeness visualization across facilities.</p><div class="sc-tags"><span class="tag">Reporting</span><span class="tag">DHIS2</span></div></div>
+                <div class="sc-body"><p>DHIS2 reporting completeness visualization across facilities, improving data quality monitoring.</p><div class="sc-tags"><span class="tag">Reporting</span><span class="tag">DHIS2</span></div></div>
             </div>
         </div>
     </div>
 </div>
 
-<!-- IMAGES SECTION - WITH IMAGES THAT SHOW FULL WITHOUT CROPPING -->
+<!-- IMAGES SECTION -->
 <div class="page-section" id="section-images">
     <div class="section-inner">
         <div class="section-title-bar">
             <div class="sbar-text">
                 <h2>Images Gallery</h2>
-                <p>Visual showcase of our projects, team, and impact</p>
+                <p>Visual showcase of our projects, team, and impact since 2023</p>
             </div>
         </div>
         
-        <!-- Simple grid of image cards with images that show full without cropping -->
         <div class="images-simple-grid">
             <!-- CEO Image -->
             <div class="image-card">
@@ -1524,7 +1508,7 @@
                 </div>
                 <div class="image-info">
                     <h4>Data Dashboard Implementation</h4>
-                    <p>Health analytics platform deployment</p>
+                    <p>Health analytics platform deployment for NMCP</p>
                 </div>
             </div>
             <div class="image-card">
@@ -1533,7 +1517,7 @@
                 </div>
                 <div class="image-info">
                     <h4>GIS Mapping Project</h4>
-                    <p>Geospatial analysis for health facilities</p>
+                    <p>Geospatial analysis for health facilities in Sierra Leone</p>
                 </div>
             </div>
             <div class="image-card">
@@ -1542,7 +1526,7 @@
                 </div>
                 <div class="image-info">
                     <h4>ML Model Development</h4>
-                    <p>Predictive analytics implementation</p>
+                    <p>Predictive analytics for malaria surveillance</p>
                 </div>
             </div>
             
@@ -1553,7 +1537,7 @@
                 </div>
                 <div class="image-info">
                     <h4>Data Science Team</h4>
-                    <p>Our expert analysts at work</p>
+                    <p>Our expert analysts at work in Freetown</p>
                 </div>
             </div>
             <div class="image-card">
@@ -1562,7 +1546,7 @@
                 </div>
                 <div class="image-info">
                     <h4>Leadership Meeting</h4>
-                    <p>Strategic planning session</p>
+                    <p>Strategic planning session with health partners</p>
                 </div>
             </div>
             <div class="image-card">
@@ -1571,7 +1555,7 @@
                 </div>
                 <div class="image-info">
                     <h4>Training Workshop</h4>
-                    <p>R and Python training session</p>
+                    <p>R and Python training for NMCP data managers</p>
                 </div>
             </div>
             
@@ -1582,7 +1566,7 @@
                 </div>
                 <div class="image-info">
                     <h4>Health Conference 2024</h4>
-                    <p>National malaria control program</p>
+                    <p>Presenting malaria analytics at national forum</p>
                 </div>
             </div>
             <div class="image-card">
@@ -1591,7 +1575,7 @@
                 </div>
                 <div class="image-info">
                     <h4>Data Science Summit</h4>
-                    <p>West Africa analytics forum</p>
+                    <p>West Africa analytics forum, Freetown 2024</p>
                 </div>
             </div>
             <div class="image-card">
@@ -1600,7 +1584,7 @@
                 </div>
                 <div class="image-info">
                     <h4>Project Launch</h4>
-                    <p>New dashboard presentation</p>
+                    <p>New dashboard presentation for NMCP</p>
                 </div>
             </div>
             
@@ -1611,7 +1595,7 @@
                 </div>
                 <div class="image-info">
                     <h4>ICF Office Freetown</h4>
-                    <p>Our headquarters workspace</p>
+                    <p>Our headquarters since 2023</p>
                 </div>
             </div>
             <div class="image-card">
@@ -1633,11 +1617,6 @@
                 </div>
             </div>
         </div>
-        
-        <!-- Note about image display -->
-        <p style="margin-top: 2rem; text-align: center; color: var(--muted); font-style: italic;">
-            Images are displayed in full without cropping. If you see empty space around an image, it's because the image aspect ratio differs from the container.
-        </p>
     </div>
 </div>
 
@@ -1647,7 +1626,7 @@
         <div class="section-title-bar">
             <div class="sbar-text">
                 <h2>Software Tools We Have Built</h2>
-                <p>Open-source and custom data tools for health and development</p>
+                <p>Open-source and custom digital health tools for malaria and health programs</p>
             </div>
         </div>
         <div class="tools-grid">
@@ -1656,7 +1635,7 @@
                     <h3>DHIS2 Data Extractor</h3>
                 </div>
                 <div class="tc-body">
-                    <p>Extract routine health data from DHIS2 systems with customizable filters and output formats.</p>
+                    <p>Extract routine health data from DHIS2 systems with customizable filters and output formats for NMCP analysis.</p>
                     <div class="tc-status"><div class="status-dot"></div> Live</div>
                 </div>
             </div>
@@ -1665,7 +1644,7 @@
                     <h3>File Combiner</h3>
                 </div>
                 <div class="tc-body">
-                    <p>Merge and combine multiple data files into a single consolidated dataset with auto-matching.</p>
+                    <p>Merge and combine multiple data files into a single consolidated dataset for health program analysis.</p>
                     <div class="tc-status"><div class="status-dot"></div> Live</div>
                 </div>
             </div>
@@ -1674,7 +1653,7 @@
                     <h3>Outlier Detection</h3>
                 </div>
                 <div class="tc-body">
-                    <p>Statistical outlier identification and handling for health routine data quality assurance.</p>
+                    <p>Statistical outlier identification and handling for DHIS2 routine data quality assurance.</p>
                     <div class="tc-status"><div class="status-dot"></div> Live</div>
                 </div>
             </div>
@@ -1683,7 +1662,7 @@
                     <h3>Fuzzy Name Matcher</h3>
                 </div>
                 <div class="tc-body">
-                    <p>Fuzzy logic matching tool for reconciling facility names across MFL, DHIS2 and shapefiles.</p>
+                    <p>Fuzzy logic matching tool for reconciling health facility names across MFL, DHIS2 and shapefiles.</p>
                     <div class="tc-status"><div class="status-dot"></div> Live</div>
                 </div>
             </div>
@@ -1733,13 +1712,13 @@
         <div class="section-title-bar">
             <div class="sbar-text">
                 <h2>Get in Touch</h2>
-                <p>Let's discuss how ICF-SL can support your data and analytics needs</p>
+                <p>Let's discuss how ICF-SL can support your health informatics and analytics needs</p>
             </div>
         </div>
         <div class="contact-layout">
             <div class="contact-info-block">
                 <h3>Contact Information</h3>
-                <p>Our team is ready to help you transform your data challenges into strategic opportunities. Reach out to start the conversation.</p>
+                <p>Our team is ready to help you transform your health data challenges into strategic opportunities. Reach out to start the conversation.</p>
                 
                 <div class="contact-detail">
                     <div class="cd-text">
@@ -1771,6 +1750,12 @@
                         <p>github.com/mohamedsillahkanu</p>
                     </div>
                 </div>
+                <div class="contact-detail">
+                    <div class="cd-text">
+                        <h5>Established</h5>
+                        <p>2023</p>
+                    </div>
+                </div>
             </div>
             <div class="form-wrapper">
                 <div class="form-head">
@@ -1796,12 +1781,12 @@
                             <label>Service Interest</label>
                             <select>
                                 <option value="">Select a service...</option>
-                                <option>Predictive Analytics</option>
-                                <option>Healthcare Analytics</option>
-                                <option>Geospatial Analysis</option>
-                                <option>Software Development</option>
+                                <option>Health Information Systems / DHIS2</option>
+                                <option>Malaria Surveillance & Epidemiology</option>
+                                <option>Predictive Analytics & Machine Learning</option>
+                                <option>Digital Health Solutions</option>
+                                <option>Geospatial Analysis & GIS</option>
                                 <option>Training & Capacity Building</option>
-                                <option>Statistical Consulting</option>
                             </select>
                         </div>
                     </div>
@@ -1822,7 +1807,7 @@
 <footer>
     <div class="footer-content">
         <div class="footer-left">
-            <p>Freetown, Sierra Leone</p>
+            <p>Freetown, Sierra Leone | Established 2023</p>
         </div>
         <div class="footer-center">
             <a href="https://www.linkedin.com/in/mohamed-sillah-kanu" target="_blank">LinkedIn</a>
